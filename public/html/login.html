@@ -1,0 +1,19 @@
+<h2>Login</h2>
+
+<div class="input-field">
+    <label for = 'username'>Email</label>
+    <input id = 'username' type="text" ng-model="email">
+
+</div>
+
+<div class="input-field">
+    <label for = 'password'>Password</label>
+    <input id = 'password' type="password" ng-model="password">
+
+</div>
+
+<button g-login type="button">Google Login</button>
+<button linked-in type="button">LinkedIn Login</button>
+<button fb-login type="button">facebook Login</button>
+<button ng-click="authenticate('github')">Sign in with GitHub</button>
+<a class="btn" ng-click="login()">Login</a>

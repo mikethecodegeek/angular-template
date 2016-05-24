@@ -1,0 +1,13 @@
+<h2>Create Item</h2>
+<div class="input-field">
+    <label for = 'name'>Name</label>
+    <input id = 'name' type="text" ng-model="newName">
+</div>
+
+<div class="input-field col s12">
+    <textarea id="textarea1" class="materialize-textarea" ng-model="newDescription"></textarea>
+    <label for="textarea1">Textarea</label>
+</div>
+
+
+<a class="btn" ng-click="postItem()">Create</a>
